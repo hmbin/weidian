@@ -1,0 +1,48 @@
+{template 'web/_header'}
+
+<div class="main">
+    <form id="dataform" action="" method="post" class="form-horizontal form">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              云支付 
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+					<label class="col-xs-12 col-sm-3 col-md-2 control-label">云支付</label>
+					<div class="col-sm-9 col-xs-12">
+						<div class="alert alert-warning">
+							云支付，含微信支付，支付宝，银联，信用卡等多种支付方式, <a href="http://www.yunpay.net.cn/yunpay.php" target="_blank">申请及详情请查看这里</a>.
+						</div>
+                        <div class="alert alert-danger">
+必看：</br>
+1>由于支付安全考虑，新版云支付配置将不在此下方放置，具体设置方式请点击下方链接进入;</br>2>发货时附送有云支付插件包文件，请需要的时候按照说明自行操作使用，本插件由云支付官方提供;</br>
+3>关于云支付的使用和申请请联系云支付，请在需要使用的情况下使用云支付插件包，不使用请勿操作，切记。
+						</div>
+						
+					
+						
+					</div>
+				</div>
+				<div id="yunpay"  style="margin-left:150px;">
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">云支付参数设置</label>
+						<a href="index.php?c=profile&a=payment&">请点击此进入</a>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">云支付开关设置</label>
+							<a href="index.php?c=site&a=entry&op=pay&do=sysset&m=ewei_shop">请点击此进入</a>
+						
+					</div>
+					
+                    <div class="form-group col-sm-12 center">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+						
+                    </div>
+					
+				</div>
+            </div>
+        </div>
+    </form>
+</div>
+{template 'web/_footer'}
+
